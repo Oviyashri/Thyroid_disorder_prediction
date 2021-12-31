@@ -1,0 +1,18 @@
+base:
+  project: mushrooms_prediction
+  random_state: 42
+  target_col: class
+
+data_source:
+  source: data_given/hypothyroid.csv
+
+split_data:
+  train_path: data/raw/train_raw.csv
+  test_path: data/raw/test_raw.csv
+  text_size: 0.3
+
+encoder:
+  train_path: data/encoder/train_encoded_raw.csv
+  test_path: data/encoder/test_encoded_raw.csv
+
+
