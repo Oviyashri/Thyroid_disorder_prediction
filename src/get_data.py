@@ -18,7 +18,8 @@ def get_data (config_path):
     random_state=config["base"]["random_state"]
 
     df=pd.read_csv(source_data_path)
-    train,test=train_test_split(df,test_size=split_ratio,random_state=random_state)
+    data= df.filter(['TSH','FTI','TT4','T3','query_hypothyroid','on_thyroxine','sex','pregnant','psych','Class'])
+    train,test=train_test_split(data,test_size=split_ratio,random_state=random_state)
     train.to_csv(train_data_path,index=False)
     test.to_csv(test_data_path,index=False)
 
@@ -26,4 +27,4 @@ if __name__ =="__main__":
     args = argparse.ArgumentParser()
     args.add_argument("--config", default="params.yaml")
     parsed_args = args.parse_args()
-    get_data(config_path=parsed_args.config)
+    data=get_data(config_path=parsed_args.config)

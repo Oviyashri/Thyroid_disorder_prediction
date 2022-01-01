@@ -1,5 +1,5 @@
 base:
-  project: mushrooms_prediction
+  project: Thyroid_disorder_prediction
   random_state: 42
   target_col: class
 
@@ -7,12 +7,12 @@ data_source:
   source: data_given/hypothyroid.csv
 
 split_data:
-  train_path: data/raw/train_raw.csv
-  test_path: data/raw/test_raw.csv
+  train_path: datas/raw/train_raw.csv
+  test_path: datas/raw/test_raw.csv
   text_size: 0.3
 
-encoder:
-  train_path: data/encoder/train_encoded_raw.csv
-  test_path: data/encoder/test_encoded_raw.csv
+preprocessed:
+  train_path: datas/processed/train_processed_raw.csv
+  test_path: datas/processed/test_processed_raw.csv
 
 
