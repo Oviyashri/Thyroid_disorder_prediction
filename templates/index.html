@@ -1,0 +1,24 @@
+<html>
+    <body>
+
+        <center>
+
+        <h1> THYROID DISORDER PREDICTION </h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b> TSH Value :  <input type="number", name='TSH', placeholder="enter"> <br><br>
+            FTI Value :  <input type="number", name='FTI', placeholder="enter"> <br><br>
+            TT4 Value :  <input type="number", name='TT4', placeholder="enter"> <br><br>
+            T3 Value  :  <input type="number", name='T3', placeholder="enter"> <br><br>
+            query_hypothyroid Value :  <input type="text", name='query_hypothyroid', placeholder="enter"> <br><br>
+            on_thyroxine :  <input type="number", name='on_thyroxine', placeholder="enter"> <br><br>
+            sex :  <input type="text", name='sex', placeholder="enter"> <br><br>
+            pregnant :  <input type="text", name='pregnant', placeholder="enter"> <br><br>
+            psych :  <input type="number", name='psych', placeholder="enter"> <br><br><br></br>
+            <input type="submit" , value='predict!'>
+        </form>
+        
+    </center>
+
+    </body>
+</html>
