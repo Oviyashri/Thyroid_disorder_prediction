@@ -1,0 +1,10 @@
+INFO:2022-01-06 14:25:25,689:Data was splitted and saved successfully
+INFO:2022-01-06 14:25:31,048:Features were filtered
+INFO:2022-01-06 14:34:19,167:Data was splitted and saved successfully
+INFO:2022-01-06 14:40:53,893:Preprocessing done for train and test data
+INFO:2022-01-06 14:42:06,432:Changed imbalanced class to balanced for train class
+INFO:2022-01-06 14:46:45,269:Changed imbalanced class to balanced for train class
+INFO:2022-01-06 14:49:40,812:Changed imbalanced class to balanced for train data
+INFO:2022-01-06 14:55:59,726:Model "RandomForestClassifier was selected and trained
+INFO:2022-01-06 15:54:28,844:Model "RandomForestClassifier was selected and trained
+INFO:2022-01-06 15:54:30,119:model,pkl "RandomForestClassifier " was done 

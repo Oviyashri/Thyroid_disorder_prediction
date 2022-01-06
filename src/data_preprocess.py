@@ -4,6 +4,10 @@ import yaml
 import pandas as pd
 import argparse
 from sklearn.impute import KNNImputer
+import logging
+
+logging.basicConfig(filename='loggs.log', level=logging.INFO,
+                    format='%(levelname)s:%(asctime)s:%(message)s')
 
 def read_params(config_path):
     with open(config_path) as yaml_file:
@@ -42,7 +46,6 @@ def preprocessing(config_path):
     train_impu_data=pd.DataFrame(data=np.round(new_array),columns=train_data.columns)
     train_impu_data.to_csv(train_processed_path,index=False)
 
-
 #"?" is replaced with nan in test data
     for column in test_data.columns:
         count = test_data[column][test_data[column]=='?'].count()
@@ -64,7 +67,7 @@ def preprocessing(config_path):
     new_array=imputer.fit_transform(test_data)
     test_impu_data=pd.DataFrame(data=np.round(new_array),columns=test_data.columns)
     test_impu_data.to_csv(test_processed_path,index=False)
-    
+logging.info('Preprocessing done for train and test data')    
 
 if __name__ =="__main__":
     args = argparse.ArgumentParser()
