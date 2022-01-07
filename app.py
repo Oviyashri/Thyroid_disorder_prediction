@@ -6,12 +6,13 @@ model = joblib.load(open("models/model.pkl", 'rb'))
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/',methods=['GET'])
 def home():
     return render_template('index.html')
 
 @app.route('/predict', methods=['POST'])
 def prediction():
+    if request.method == 'POST':
         TSH =(request.form["TSH"])
         FTI =(request.form["FTI"])
         TT4 =(request.form["TT4"])
@@ -27,4 +28,4 @@ def prediction():
         return render_template('after.html',data=prediction)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
