@@ -12,7 +12,6 @@ def home():
 
 @app.route('/predict', methods=['POST'])
 def prediction():
-    if request.method == 'POST':
         TSH =(request.form["TSH"])
         FTI =(request.form["FTI"])
         TT4 =(request.form["TT4"])
@@ -28,4 +27,4 @@ def prediction():
         return render_template('after.html',data=prediction)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
