@@ -3,20 +3,51 @@
 
         <center>
 
-        <h1> THYROID DISORDER PREDICTION </h1><br>
-        
-        
+        <h1 style="font-size:40px; color:rgb(9, 9, 156);">Thyroid Disease Prediction</h1>
+        <h2 style="font-size:25px;">This web application is made to predict Thyroid disease with the following parameters given</h2>
+        <p style="font-family: Arial;">Fill the form and get your results</p>
+
         <form method="POST", action="{{url_for('prediction')}}">
-           <b> TSH Value :  <input type="number", name='TSH', placeholder="enter"> <br><br>
-            FTI Value :  <input type="number", name='FTI', placeholder="enter"> <br><br>
-            TT4 Value :  <input type="number", name='TT4', placeholder="enter"> <br><br>
-            T3 Value  :  <input type="number", name='T3', placeholder="enter"> <br><br>
-            query_hypothyroid Value :  <input type="text", name='query_hypothyroid', placeholder="enter"> <br><br>
-            on_thyroxine :  <input type="number", name='on_thyroxine', placeholder="enter"> <br><br>
-            sex :  <input type="text", name='sex', placeholder="enter"> <br><br>
-            pregnant :  <input type="text", name='pregnant', placeholder="enter"> <br><br>
-            psych :  <input type="number", name='psych', placeholder="enter"> <br><br><br></br>
-            <input type="submit" , value='Predict'>
+            
+            <label style="margin: left 30px; background-color: rgb(105, 185, 216);" for="TSH">TSH value:</label>
+            <input type="number" name="TSH" placeholder="enter" step="any"> <br><br>
+
+            <label style="background-color: rgb(105, 185, 216);" for="FTI">FTI value:</label>
+            <input type="number" name="FTI" placeholder="enter" step="any"> <br><br>
+
+            <label style="background-color: rgb(105, 185, 216);" for="TT4">TT4 value:</label>
+            <input type="number" name="TT4" placeholder="enter" step="any"> <br><br>
+
+            <label style="background-color: rgb(105, 185, 216);" for="T3">T3 value:</label>
+            <input type="number" name="T3" placeholder="enter" step="any"> <br><br>
+           
+            <label style="background-color: rgb(105, 185, 216);" for="query_hypothyroid">Query_hypothyroid value :</label>
+            <select id="query_hypothyroid" name="query_hypothyroid">
+            <option value="1">True</option>
+            <option value="0">False</option></select>
+
+            <label style="background-color: rgb(105, 185, 216);" for="on_thyroxine">On_thyroxine value :</label>
+            <select id="on_thyroxine" name="on_thyroxine">
+            <option value="1">True</option>
+            <option value="0">False</option></select>
+
+            <label style="background-color: rgb(105, 185, 216);" for="sex">Sex :</label>
+            <select id="sex" name="sex">
+            <option value="1">Male</option>
+            <option value="0">Female</option></select> 
+
+            <label style="background-color: rgb(105, 185, 216);" for="pregnant">Pregnant :</label>
+            <select id="pregnant" name="pregnant">
+            <option value="1">True</option>
+            <option value="0">False</option></select> 
+            
+            <label style="background-color: rgb(105, 185, 216);" for="psych">Psych :</label>
+            <select id="psych" name="psych">
+            <option value="1">True</option>
+            <option value="0">False</option></select> <br><br><br>
+
+            <input type="submit" , value='Predict'> <br><br><br></br>
+            <input type="reset" , value='Reset value'>
         </form>
         
     </center>
