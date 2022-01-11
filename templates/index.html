@@ -9,7 +9,7 @@
 
         <form method='POST', action="{{url_for('prediction')}}">
             
-            <label style="margin: left 30px; background-color: rgb(105, 185, 216);" for="TSH">TSH value:</label>
+            <label style="background-color: rgb(105, 185, 216);" for="TSH">TSH value:</label>
             <input type="number" name="TSH" placeholder="enter" step="any"> <br><br>
 
             <label style="background-color: rgb(105, 185, 216);" for="FTI">FTI value:</label>
@@ -23,26 +23,31 @@
            
             <label style="background-color: rgb(105, 185, 216);" for="query_hypothyroid">Query_hypothyroid value :</label>
             <select id="query_hypothyroid" name="query_hypothyroid">
+            <option value="text">Select</option>
             <option value="1">True</option>
             <option value="0">False</option></select>
 
             <label style="background-color: rgb(105, 185, 216);" for="on_thyroxine">On_thyroxine value :</label>
             <select id="on_thyroxine" name="on_thyroxine">
+            <option value="text">Select</option>
             <option value="1">True</option>
             <option value="0">False</option></select>
 
             <label style="background-color: rgb(105, 185, 216);" for="sex">Sex :</label>
             <select id="sex" name="sex">
+            <option value="text">Select</option>
             <option value="1">Male</option>
             <option value="0">Female</option></select> 
 
             <label style="background-color: rgb(105, 185, 216);" for="pregnant">Pregnant :</label>
             <select id="pregnant" name="pregnant">
+            <option value="text">Select</option>
             <option value="1">True</option>
             <option value="0">False</option></select> 
             
             <label style="background-color: rgb(105, 185, 216);" for="psych">Psych :</label>
             <select id="psych" name="psych">
+            <option value="text">Select</option>
             <option value="1">True</option>
             <option value="0">False</option></select> <br><br><br>
 
