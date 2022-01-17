@@ -9,3 +9,4 @@
 2022-01-15/17:50:41		model is fitted
 2022-01-15/17:50:41		Classification report done
 2022-01-15/17:50:41		Saved as model.pkl successfully
+2022-01-17/22:21:16		Data is splitted and get_data done successfully
