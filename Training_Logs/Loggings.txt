@@ -1,0 +1,11 @@
+2022-01-15/16:29:54		Data is filtered and splitted
+2022-01-15/16:44:01		Data is splitted and get_data done successfully
+2022-01-15/17:22:36		Preprocessing successful for train data
+2022-01-15/17:22:36		Preprocessing successful for test data
+2022-01-15/17:34:06		Handled imbalanced data for train data
+2022-01-15/17:46:55		Classification report done
+2022-01-15/17:50:07		Exception occurred in train_test. Exception message: name 'RandomForestClassifie' is not defined
+2022-01-15/17:50:07		train_test unsuccessful
+2022-01-15/17:50:41		model is fitted
+2022-01-15/17:50:41		Classification report done
+2022-01-15/17:50:41		Saved as model.pkl successfully
