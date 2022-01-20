@@ -1,0 +1,29 @@
+body 
+{
+  background-image:url(../image.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+}
+
+@media screen  and (max-width:1142px){
+
+    input{
+        display: block;
+    }
+    label{
+        display: block;
+        margin: auto;
+        padding-top: 15px;
+    }
+}
+
+@media screen  and (max-width:936px){
+   
+    input{
+        display: block;
+    }
+    .sec1 > select{
+        display: block;
+    }
+}
