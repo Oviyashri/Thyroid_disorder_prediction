@@ -78,6 +78,16 @@ Finally when we get all the prediction for client data, then our final task is t
 Thyroid disease detection Web App: https://thyroid-disease-prediction-api.herokuapp.com
 
 ## Screenshots
+**UI:**
+
+![image1](https://user-images.githubusercontent.com/92749977/150332457-6a49710a-ec76-4b99-9be8-6a83b591a7ee.jpg)
+
+**Prediction:**
+
+![image3](https://user-images.githubusercontent.com/92749977/150333132-9b4989f1-5bdc-43c9-9383-91659d5ff880.jpg)
+
+
+![image4](https://user-images.githubusercontent.com/92749977/150333183-09cf38f6-aa62-4307-95c0-fee1bb4211a2.jpg)
 
 ## Project Documents
 
@@ -98,5 +108,7 @@ URL: https://github.com/Oviyashri/Thyroid_disorder_prediction/blob/main/docs/Arc
 URL: https://github.com/Oviyashri/Thyroid_disorder_prediction/blob/main/docs/DPR.pdf
 
 ## Wireframe
+
+URL: https://github.com/Oviyashri/Thyroid_disorder_prediction/blob/main/docs/Wireframe.pdf
 
 ## Demo Video
