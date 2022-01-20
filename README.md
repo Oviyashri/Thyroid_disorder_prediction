@@ -109,6 +109,5 @@ URL: https://github.com/Oviyashri/Thyroid_disorder_prediction/blob/main/docs/DPR
 
 ## Wireframe
 
-URL: https://github.com/Oviyashri/Thyroid_disorder_prediction/blob/main/docs/Wireframe.pdf
 
 ## Demo Video
