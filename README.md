@@ -86,8 +86,7 @@ Thyroid disease detection Web App: https://thyroid-disease-prediction-api.heroku
 
 ![image3](https://user-images.githubusercontent.com/92749977/150358057-2cc5bf3f-0c56-49a0-8b35-9f3c49c440a2.jpg)
 
-
-![image4](https://user-images.githubusercontent.com/92749977/150333183-09cf38f6-aa62-4307-95c0-fee1bb4211a2.jpg)
+![image4](https://user-images.githubusercontent.com/92749977/150359302-65ddd462-9fe6-40bb-b139-365c1f02286c.jpg)
 
 ## Project Documents
 
