@@ -92,7 +92,7 @@ Thyroid disease detection Web App: https://thyroid-disease-prediction-api.heroku
 
 ## High Level Design 
 
-URL: https://github.com/Oviyashri/Thyroid_disorder_prediction/blob/main/docs/DPR.pdf
+URL: https://github.com/Oviyashri/Thyroid_disorder_prediction/blob/main/docs/HDD.pdf
 
 ## Low Level Design
 
@@ -108,7 +108,7 @@ URL: https://github.com/Oviyashri/Thyroid_disorder_prediction/blob/main/docs/DPR
 
 ## Wireframe
 
-URL: https://drive.google.com/file/d/17N5R1aETfASD6-gRHB9utdCv5qwmQeUE/view?usp=sharing
+URL: https://github.com/Oviyashri/Thyroid_disorder_prediction/blob/main/docs/Wireframe.pdf
 
 ## Demo Video
 
