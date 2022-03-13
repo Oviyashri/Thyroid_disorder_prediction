@@ -75,7 +75,12 @@ Finally when we get all the prediction for client data, then our final task is t
 
 ## Web Deployment
 
-Thyroid disease detection Web App: https://thyroid-disease-prediction-api.herokuapp.com
+Thyroid disease detection Web App: 
+
+(Using Flask)  https://thyroid-disease-prediction-api.herokuapp.com
+
+(Using Django) https://thyroid-pred.herokuapp.com
+
 
 ## Screenshots
 **UI:**
